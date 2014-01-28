@@ -39,4 +39,3 @@ Menus
 7. Location and Mapping (Maps, Geocoding and Location-Based Services)
 8. Multimedia (Audio, Video and Using the Camera)
 9. Custom REST Services
-
