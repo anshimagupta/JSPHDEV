@@ -1,0 +1,41 @@
+Test for: ParkedVehicle is within the parking time purchased
+parked time = 60min and purchased time = 100min
+Legal parking, no ticket will be issued.
+
+Test for: ParkedVehicle is just in (boundary condition 1) the parking time purchased
+parked time = 100min and purchased time = 100min
+Legal parking, no ticket will be issued.
+
+Test for: ParkedVehicle is out of the parking time purchased
+Test 3 with parked time = 120min and purchased time = 100min
+Below ticket has been issued for the illegally parked car:
+Car Make: Toyota
+Car Model: Camry
+Car Color: Black
+Car License Number: S12345
+Car Fine ($): 25.0
+Police Officer Name: John Smith
+Police Officer Badge Number: PO007
+
+Test for: Boundary condition 2 - exact out of purchased time for 1 hour
+parked time = 160min and purchased time = 100min
+Below ticket has been issued for the illegally parked car:
+Car Make: Toyota
+Car Model: Camry
+Car Color: Black
+Car License Number: S12345
+Car Fine ($): 25.0
+Police Officer Name: John Smith
+Police Officer Badge Number: PO007
+
+Test for: out of purchased time for more than 1 hour and less than 2 hours
+parked time = 200min and purchased time = 100min
+Below ticket has been issued for the illegally parked car:
+Car Make: Toyota
+Car Model: Camry
+Car Color: Black
+Car License Number: S12345
+Car Fine ($): 35.0
+Police Officer Name: John Smith
+Police Officer Badge Number: PO007
+
