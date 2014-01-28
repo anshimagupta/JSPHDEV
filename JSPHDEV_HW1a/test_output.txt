@@ -1,0 +1,26 @@
+The side that is intially facing up is tails
+Toss the coin for 20 times:
+
+Toss No.1 - face up: tails
+Toss No.2 - face up: tails
+Toss No.3 - face up: heads
+Toss No.4 - face up: heads
+Toss No.5 - face up: tails
+Toss No.6 - face up: heads
+Toss No.7 - face up: tails
+Toss No.8 - face up: tails
+Toss No.9 - face up: tails
+Toss No.10 - face up: heads
+Toss No.11 - face up: heads
+Toss No.12 - face up: heads
+Toss No.13 - face up: tails
+Toss No.14 - face up: tails
+Toss No.15 - face up: heads
+Toss No.16 - face up: tails
+Toss No.17 - face up: tails
+Toss No.18 - face up: tails
+Toss No.19 - face up: heads
+Toss No.20 - face up: tails
+
+Total number of heads is 8
+Total number of tails is 12
