@@ -9,6 +9,7 @@ A. Java Foundations
 B. Android Application Development
 
 Topics for each unit are detailed below:
+
 A. Java Foundations
 
 1. Java platform, architecture and history
@@ -22,6 +23,8 @@ A. Java Foundations
 9. Collections
 10. Socket Programming
 11. Web Programming - Servlets, JavaBeans and JSP's
+
+
 
 B. Android Application Development
 
