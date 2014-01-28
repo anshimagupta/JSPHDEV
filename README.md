@@ -10,6 +10,7 @@ B. Android Application Development
 
 Topics for each unit are detailed below:
 A. Java Foundations
+
 1. Java platform, architecture and history
 2. Language basics (declaring variables, expressions, console input/output, decision making and looping constructs, declaring arrays)
 3. Object Oriented Programming (OOP) (Class, Object, Instance and Static, Encapsulation) 
@@ -23,6 +24,7 @@ A. Java Foundations
 11. Web Programming - Servlets, JavaBeans and JSP's
 
 B. Android Application Development
+
 1. Android architecture and tools (Android Virtual Device, SDK, Android Development Kit)
 2. Publishing Android
 3. Activities and Intents
