@@ -1,9 +1,10 @@
 package model;
 
 public abstract class Stats {
-	int[] lowscores = new int[5];
-	int[] highscores = new int[5];
-	float[] avgscores = new float[5];
+	protected int numQuiz = 5;
+	protected int[] lowscores = new int[numQuiz];
+	protected int[] highscores = new int[numQuiz];
+	protected float[] avgscores = new float[numQuiz];
 	
 	public abstract void findLow(Student[] stu);
 	public abstract void findHigh(Student[] stu);

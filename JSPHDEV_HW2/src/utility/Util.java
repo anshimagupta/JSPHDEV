@@ -22,8 +22,18 @@ public class Util {
 			while(!eof){
 				String line = buff.readLine();
 
-				if (line == null)
+				if (line == null){
 					eof = true;
+					try{
+						if (stuCount < 40){
+						throw new StuRecordsException("Less than 40 records are read. " + 
+								"Statistics are based on student records read.");
+						} 
+					} catch(StuRecordsException exception) {
+							System.out.println(exception.getMsg());
+					} finally{
+					}
+				}
 				else{
 					//throw a custom exception when there are more than 40 records in the data file
 					try{

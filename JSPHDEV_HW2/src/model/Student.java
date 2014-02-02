@@ -2,7 +2,8 @@ package model;
 
 public class Student {
 	private int SID;
-	private int score[] = new int[5];
+	private int numQuiz = 5;
+	private int score[] = new int[numQuiz];
 	
 	public int getSID(){
 		return this.SID;
