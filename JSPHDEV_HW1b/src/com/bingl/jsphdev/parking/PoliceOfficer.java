@@ -18,6 +18,13 @@ public class PoliceOfficer {
 		this.badgeNumber = badgeNumber;
 	}
 	
+	public boolean makeTicket(ParkedCar car, ParkingMeter parkingMeter){
+		if (car.getParkedMinutes() > parkingMeter.getParkingMinutesPurchased()){
+			return true;
+		} else{
+			return false;
+		}
+	}
 	public ParkingTicket issueTicket(ParkedCar car, ParkingMeter parkingMeter){
 		if (car.getParkedMinutes() > parkingMeter.getParkingMinutesPurchased()){
 			overtimeHour = Math.ceil((car.getParkedMinutes() - parkingMeter.getParkingMinutesPurchased())/60.0);
