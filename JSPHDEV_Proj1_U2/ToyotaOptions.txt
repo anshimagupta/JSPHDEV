@@ -1,0 +1,8 @@
+Make:Toyota
+Model:Corolla
+Base Price:16800
+Color:Fort Knox Gold Clearcoat Metallic,0;Liquid Grey Clearcoat Metallic,0;Infra-Red Clearcoat,0;Grabber Green Clearcoat Metallic,0;Sangria Red Clearcoat Metallic,0;French Blue Clearcoat Metallic,0;Twilight Blue Clearcoat Metallic,0;CD Silver Clearcoat Metallic,0;Pitch Black Clearcoat,0;Cloud 9 White Clearcoat,0
+Transmission:automatic,0;manual,-800
+Brakes/Traction Control:standard,0;ABS,300;ABS with Advance Trac,1500
+Side Impact Air Bags:none,0;selected,300
+Power Moonroof:none,0;selected,500
