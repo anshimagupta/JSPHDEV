@@ -11,14 +11,21 @@ public class ReadFile {
 	
 	public Automobile buildAutoObject(String fileName){
 		try{
+			/**
+			 * check whether file name is missing
+			 */
 			if (fileName.length() == 0){
 				throw new AutoOptionException("File name is missing!");
 			}
+			
+			// create FileReader to read file
 			FileReader file = new FileReader(fileName);
 			BufferedReader buff = new BufferedReader(file);
 			boolean eof = false;
 			
-			// check field - "Make"
+			/**
+			 * check whether field "Make" exists, if not, throw exception
+			 */
 			String autoMake = null;
 			String makelLine = buff.readLine();
 			makelLine.split(":");
@@ -35,7 +42,9 @@ public class ReadFile {
 			} 
 			automobile.setMake(autoMake);
 			
-			// check field - "Model"
+			/**
+			 * check whether field "Model" exists, if not, throw exception.
+			 */
 			String autoName = null;
 			String modelLine = buff.readLine();
 			modelLine.split(":");
@@ -52,7 +61,9 @@ public class ReadFile {
 			} 
 			automobile.setModel(autoName);
 			
-			// check field - "Base Price"
+			/**
+			 * check whether field "Base Price" exists, if not, throw exception.
+			 */
 			float autoBasePrice = (float) 0.0;
 			String basePriceLine = buff.readLine();
 			basePriceLine.split(":");
@@ -69,8 +80,13 @@ public class ReadFile {
 			}
 			automobile.setBaseprice(autoBasePrice);
 			
-			// Start reading Option Set and Options
-			int opsetIndex = 0;
+			/** 
+			 * Start reading Option Set and Options
+			 * Each line in input data file contains all information for one option set.
+			 * Option set name and options are separated by ":"
+			 * Options are separated by ";"
+			 * Option name and price are separated by ","
+			 */
 			while (eof != true){
 				String line = buff.readLine();
 				
@@ -107,7 +123,6 @@ public class ReadFile {
 						float optPrice = Float.parseFloat(optString);
 						automobile.setOptionValues(opsetName, optName, optPrice);
 					}
-					opsetIndex++;
 				}
 			}
 			buff.close();

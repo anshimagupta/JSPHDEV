@@ -1,0 +1,82 @@
+**TEST FOR MULTITHREADING**
+========================
+Make: Ford
+Model: Focus Wagon ZTW
+Base Price: $18445.0
+
+Color
+	Fort Knox Gold Clearcoat Metallic - Price: $0.0
+	Liquid Grey Clearcoat Metallic - Price: $0.0
+	Infra-Red Clearcoat - Price: $0.0
+	Grabber Green Clearcoat Metallic - Price: $0.0
+	Sangria Red Clearcoat Metallic - Price: $0.0
+	French Blue Clearcoat Metallic - Price: $0.0
+	Twilight Blue Clearcoat Metallic - Price: $0.0
+	CD Silver Clearcoat Metallic - Price: $0.0
+	Pitch Black Clearcoat - Price: $0.0
+	Cloud 9 White Clearcoat - Price: $0.0
+
+Transmission
+	automatic - Price: $0.0
+	manual - Price: $-815.0
+
+Brakes/Traction Control
+	standard - Price: $0.0
+	ABS - Price: $400.0
+	ABS with Advance Trac - Price: $1625.0
+
+Side Impact Air Bags
+	none - Price: $0.0
+	selected - Price: $350.0
+
+Power Moonroof
+	none - Price: $0.0
+	selected - Price: $595.0
+
+===============================
+Test of multithreading - edit opset/option
+Current running thread is:Thread-0
+
+Color
+Transmission
+Brakes/Traction Control
+Side Impact Air Bags
+Power Moonroof
+
+Please enter the option set name you want to edit:
+[user Input:]Color
+
+Please enter the new option set name:
+[user Input:]Color0
+Updated!
+
+** Current option set names are:
+Transmission
+Brakes/Traction Control
+Side Impact Air Bags
+Power Moonroof
+Color0
+
+===============================
+Test of multithreading - edit opset/option
+Current running thread is:Thread-1
+
+Transmission
+Brakes/Traction Control
+Side Impact Air Bags
+Power Moonroof
+Color0
+
+Please enter the option set name you want to edit:
+[user Input:]Color0
+
+Please enter the new option set name:
+[user Input:]Color1
+Updated!
+
+** Current option set names are:
+Transmission
+Brakes/Traction Control
+Side Impact Air Bags
+Power Moonroof
+Color1

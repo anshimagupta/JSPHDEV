@@ -6,10 +6,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-
 import adapter.BuildAuto;
-
-import model.Automobile;
 
 public class FileIO {
 	public void serializeAuto(BuildAuto buildAuto, String fileName) throws FileNotFoundException, IOException{
