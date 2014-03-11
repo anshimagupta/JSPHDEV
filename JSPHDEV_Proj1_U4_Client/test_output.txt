@@ -1,0 +1,64 @@
+**UNIT 4 CLIENT TESTING**
+========================
+Please enter name of file containing auto information:
+Prius.properties
+[Server Confirmation]: The uploaded automobile options is successfully added!
+
+Add more models?
+1. Yes
+2. No
+1
+
+Please enter name of file containing auto information:
+Prius2.properties
+[Server Confirmation]: The uploaded automobile options is successfully added!
+
+Add more models?
+1. Yes
+2. No
+2
+
+Want to configure your car?
+1. Yes
+2. No
+1
+
+All available models as below: 
+Prius Prius2 
+
+Please enter the model name your desired model name:
+Prius2
+
+Please review the option information for Prius2
+
+Make: Toyota
+Model: Prius2
+Base Price: $22222.0
+
+Transmission
+	Manual - Price: $0.0
+	Automatic - Price: $2000.0
+
+Brakes
+	Regular - Price: $0.0
+	ABC - Price: $800.0
+
+Please enter your option choice for Transmission
+Manual
+
+Please enter your option choice for Brakes
+ABC
+
+Please review your final selections. Thanks.
+
+Car Make: Toyota
+Car Model: Prius2
+Base Price: 22222.0
+
+Transmission
+	Manual: $0.0
+
+Brakes
+	ABC: $800.0
+
+Simulation end successfully!
