@@ -1,0 +1,94 @@
+**UNIT 6 SERVER TESTING**
+========================
+Schema created successfully with file sql/create_schema.sql
+
+
+Table created successfully with file sql/model.sql
+Table created successfully with file sql/opset.sql
+Table created successfully with file sql/model_opset.sql
+Table created successfully with file sql/opt.sql
+Table created successfully with file sql/opset_opt.sql
+
+
+Model 'Focus Wagon ZTW' was successfully added to DB.
+Model 'Prius' was successfully added to DB.
+
+
+=====PRINT [Focus Wagon ZTW]=====
+Make: Ford
+Model: Focus Wagon ZTW
+Base Price: $18445.0
+
+Color
+	Fort Knox Gold Clearcoat Metallic - Price: $0.0
+	Liquid Grey Clearcoat Metallic - Price: $0.0
+	Infra-Red Clearcoat - Price: $0.0
+	Grabber Green Clearcoat Metallic - Price: $0.0
+	Sangria Red Clearcoat Metallic - Price: $0.0
+	French Blue Clearcoat Metallic - Price: $0.0
+	Twilight Blue Clearcoat Metallic - Price: $0.0
+	CD Silver Clearcoat Metallic - Price: $0.0
+	Pitch Black Clearcoat - Price: $0.0
+	Cloud 9 White Clearcoat - Price: $0.0
+
+Transmission
+	automatic - Price: $0.0
+	manual - Price: $-815.0
+
+Brakes/Traction Control
+	standard - Price: $0.0
+	ABS - Price: $400.0
+	ABS with Advance Trac - Price: $1625.0
+
+Side Impact Air Bags
+	none - Price: $0.0
+	selected - Price: $350.0
+
+Power Moonroof
+	none - Price: $0.0
+	selected - Price: $595.0
+
+
+Model 'Prius' was successfully deleted from DB.
+
+
+Option price has been changed to $555.0 in DB for:
+Model: Focus Wagon ZTW
+Option Set: Color
+Option Name: Fort Knox Gold Clearcoat Metallic
+
+
+=====PRINT UPDATED [Focus Wagon ZTW]=====
+Make: Ford
+Model: Focus Wagon ZTW
+Base Price: $18445.0
+
+Color
+	Fort Knox Gold Clearcoat Metallic - Price: $555.0
+	Liquid Grey Clearcoat Metallic - Price: $0.0
+	Infra-Red Clearcoat - Price: $0.0
+	Grabber Green Clearcoat Metallic - Price: $0.0
+	Sangria Red Clearcoat Metallic - Price: $0.0
+	French Blue Clearcoat Metallic - Price: $0.0
+	Twilight Blue Clearcoat Metallic - Price: $0.0
+	CD Silver Clearcoat Metallic - Price: $0.0
+	Pitch Black Clearcoat - Price: $0.0
+	Cloud 9 White Clearcoat - Price: $0.0
+
+Transmission
+	automatic - Price: $0.0
+	manual - Price: $-815.0
+
+Brakes/Traction Control
+	standard - Price: $0.0
+	ABS - Price: $400.0
+	ABS with Advance Trac - Price: $1625.0
+
+Side Impact Air Bags
+	none - Price: $0.0
+	selected - Price: $350.0
+
+Power Moonroof
+	none - Price: $0.0
+	selected - Price: $595.0
+

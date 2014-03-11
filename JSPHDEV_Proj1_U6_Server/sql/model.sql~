@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS `model` (
+  `model_id` int(11) NOT NULL,
+  `make` varchar(45) DEFAULT NULL,
+  `model` varchar(45) DEFAULT NULL,
+  `base_price` float DEFAULT NULL,
+  PRIMARY KEY (`model_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;

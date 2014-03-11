@@ -1,0 +1,7 @@
+Make:Toyota
+Model:Prius
+Base Price:16000
+Color:White,0;Red,0;Black,0;
+Transmission:automatic,0;manual,-900
+Brakes/Traction Control:standard,0;ABS,300;ABS with Advance Trac,1500
+Power Moonroof:none,0;selected,600;
